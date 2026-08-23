@@ -41,11 +41,9 @@ A property-focused web application for browsing and managing real-estate listing
 - Systems & security: software security concepts, Linux, Arduino, embedded systems
 - Networking: computer networks and connected systems
 
-## Take a coding break → Bug Catcher
+## Bug Catcher — Interactive Coding Mini-Game
 
-A lightweight mini-game is included in this repo for local review and future GitHub Pages publication.
-
-Open: [game/index.html](game/index.html)
+I designed a small JavaScript mini-game as a creative addition to my GitHub profile. It includes a scoring system, timer, keyboard controls, and responsive gameplay.
 
 ## Contact
 
