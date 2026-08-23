@@ -37,9 +37,9 @@
   </g>
 
   <g>
-    <rect x="62" y="52" width="196" height="116" rx="18" fill="#0F172A" opacity="0.96"/>
+    <rect x="62" y="52" width="318" height="116" rx="18" fill="#0F172A" opacity="0.96"/>
     <text x="90" y="90" fill="#F8FAFC" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="600">Jood Hamatto</text>
-    <text x="90" y="122" fill="#BFDBFE" font-family="Segoe UI, Arial, sans-serif" font-size="14" letter-spacing="1.6">COMPUTER ENGINEERING</text>
+    <text x="90" y="122" fill="#BFDBFE" font-family="Segoe UI, Arial, sans-serif" font-size="14.2" letter-spacing="1.25">COMPUTER ENGINEERING</text>
     <text x="90" y="148" fill="#E2E8F0" font-family="Segoe UI, Arial, sans-serif" font-size="13">Software • Web • Mobile</text>
     <rect x="90" y="158" width="86" height="4" rx="2" fill="#60A5FA"/>
   </g>

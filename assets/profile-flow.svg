@@ -1,0 +1,113 @@
+<svg width="1400" height="220" viewBox="0 0 1400 220" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Animated developer flow">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1400" y2="220" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0B1120"/>
+      <stop offset="0.45" stop-color="#111827"/>
+      <stop offset="1" stop-color="#0F172A"/>
+    </linearGradient>
+    <linearGradient id="lineGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#22D3EE" stop-opacity="0.18"/>
+      <stop offset="18%" stop-color="#22D3EE" stop-opacity="1"/>
+      <stop offset="54%" stop-color="#8B5CF6" stop-opacity="1"/>
+      <stop offset="82%" stop-color="#34D399" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#34D399" stop-opacity="0.18"/>
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="160%">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <style>
+      .flow {
+        animation: travel 7s linear infinite;
+      }
+      .flow-slow {
+        animation: travel 10s linear infinite reverse;
+      }
+      .pulse {
+        animation: pulse 2.5s ease-in-out infinite;
+      }
+      .node {
+        animation: node 2.8s ease-in-out infinite;
+      }
+      @keyframes travel {
+        0% { transform: translateX(-80px); opacity: 0.25; }
+        15% { opacity: 1; }
+        55% { opacity: 1; }
+        100% { transform: translateX(80px); opacity: 0.25; }
+      }
+      @keyframes pulse {
+        0%, 100% { opacity: 0.5; }
+        50% { opacity: 1; }
+      }
+      @keyframes node {
+        0%, 100% { transform: scale(1); opacity: 0.85; }
+        50% { transform: scale(1.04); opacity: 1; }
+      }
+    </style>
+  </defs>
+
+  <rect width="1400" height="220" rx="24" fill="url(#bg)"/>
+  <rect x="18" y="18" width="1364" height="184" rx="18" fill="#0F172A" fill-opacity="0.7" stroke="#334155" stroke-opacity="0.8"/>
+
+  <g opacity="0.9">
+    <path d="M35 108H250C282 108 294 97 330 97H520C555 97 566 124 598 124H760C793 124 806 88 842 88H1028C1068 88 1084 108 1118 108H1336" stroke="url(#lineGrad)" stroke-width="3" stroke-linecap="round" stroke-dasharray="12 18" filter="url(#glow)"/>
+    <path d="M80 152C182 152 196 84 278 84H450C515 84 526 142 594 142H742C810 142 824 58 920 58H1110C1186 58 1195 128 1268 128H1318" stroke="#94A3B8" stroke-opacity="0.17" stroke-width="1.5" stroke-linecap="round" stroke-dasharray="7 16"/>
+  </g>
+
+  <g class="flow" opacity="0.95">
+    <circle cx="0" cy="108" r="7" fill="#22D3EE"/>
+    <circle cx="26" cy="108" r="7" fill="#8B5CF6"/>
+    <circle cx="52" cy="108" r="7" fill="#34D399"/>
+  </g>
+
+  <g class="flow-slow" opacity="0.9">
+    <circle cx="0" cy="152" r="5" fill="#38BDF8"/>
+    <circle cx="26" cy="152" r="5" fill="#A78BFA"/>
+    <circle cx="52" cy="152" r="5" fill="#2DD4BF"/>
+  </g>
+
+  <g>
+    <g class="node" style="animation-delay:0.2s">
+      <rect x="84" y="58" width="104" height="38" rx="10" fill="#0B1220" stroke="#22D3EE" stroke-opacity="0.9"/>
+      <text x="108" y="83" fill="#E2E8F0" font-family="Segoe UI, Arial, sans-serif" font-size="15" font-weight="700">SYSTEM</text>
+    </g>
+
+    <g class="node" style="animation-delay:0.7s">
+      <rect x="398" y="78" width="128" height="38" rx="10" fill="#0B1220" stroke="#8B5CF6" stroke-opacity="0.9"/>
+      <text x="425" y="103" fill="#E2E8F0" font-family="Segoe UI, Arial, sans-serif" font-size="15" font-weight="700">BUILD</text>
+    </g>
+
+    <g class="node" style="animation-delay:1.1s">
+      <rect x="746" y="58" width="138" height="38" rx="10" fill="#0B1220" stroke="#34D399" stroke-opacity="0.9"/>
+      <text x="778" y="83" fill="#E2E8F0" font-family="Segoe UI, Arial, sans-serif" font-size="15" font-weight="700">DEPLOY</text>
+    </g>
+
+    <g class="node" style="animation-delay:1.5s">
+      <rect x="1184" y="76" width="142" height="38" rx="10" fill="#0B1220" stroke="#E2E8F0" stroke-opacity="0.75"/>
+      <text x="1214" y="101" fill="#E2E8F0" font-family="Segoe UI, Arial, sans-serif" font-size="15" font-weight="700">OUTPUT</text>
+    </g>
+  </g>
+
+  <g class="pulse" opacity="0.9">
+    <path d="M180 146H408" stroke="#22D3EE" stroke-width="2.4" stroke-linecap="round"/>
+    <path d="M742 170H1032" stroke="#8B5CF6" stroke-width="2.4" stroke-linecap="round"/>
+    <path d="M966 102H1168" stroke="#34D399" stroke-width="2.4" stroke-linecap="round"/>
+  </g>
+
+  <g opacity="0.85">
+    <circle cx="70" cy="66" r="4" fill="#22D3EE"/>
+    <circle cx="360" cy="62" r="4" fill="#8B5CF6"/>
+    <circle cx="640" cy="58" r="4" fill="#34D399"/>
+    <circle cx="920" cy="62" r="4" fill="#22D3EE"/>
+    <circle cx="1238" cy="62" r="4" fill="#8B5CF6"/>
+  </g>
+
+  <g opacity="0.88">
+    <text x="110" y="157" fill="#cbd5e1" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="700" letter-spacing="1.2">WEB</text>
+    <text x="560" y="174" fill="#cbd5e1" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="700" letter-spacing="1.2">SYSTEMS</text>
+    <text x="1044" y="160" fill="#cbd5e1" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="700" letter-spacing="1.2">PRODUCT</text>
+  </g>
+</svg>

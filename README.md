@@ -41,7 +41,7 @@ A property-focused web application for browsing and managing real-estate listing
 - Systems & security: software security concepts, Linux, Arduino, embedded systems
 - Networking: computer networks and connected systems
 
-<img src="assets/profile-flow.svg" alt="Animated developer flow" width="100%" />
+<img src="assets/profile-flow.svg" alt="Developer workflow animation" width="100%" />
 
 ## Contact
 
