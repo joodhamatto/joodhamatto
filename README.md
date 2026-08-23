@@ -51,4 +51,4 @@ I designed a small JavaScript mini-game as a creative addition to my GitHub prof
 - LinkedIn: https://www.linkedin.com/in/jood-hamatto-880a4a319
 - GitHub: https://github.com/joodhamatto
 
-I am open to internship and junior software or computer engineering opportunities where I can contribute, learn, and keep building meaningful projects.
+I am open to software and computer engineering opportunities, freelance projects, and collaborations where I can build practical, reliable digital solutions and continue growing as a developer.
