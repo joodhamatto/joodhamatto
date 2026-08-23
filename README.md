@@ -41,11 +41,7 @@ A property-focused web application for browsing and managing real-estate listing
 - Systems & security: software security concepts, Linux, Arduino, embedded systems
 - Networking: computer networks and connected systems
 
-## Bug Catcher
-
-<a href="https://joodhamatto.github.io/joodhamatto/game/" target="_blank" rel="noopener noreferrer">
-  <img src="assets/bug-catcher-preview.svg" alt="Bug Catcher game preview" width="100%" />
-</a>
+<img src="assets/profile-flow.svg" alt="Animated developer flow" width="100%" />
 
 ## Contact
 
