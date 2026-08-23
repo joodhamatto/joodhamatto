@@ -1,72 +1,56 @@
-# Hi, I'm Jood Hamatto 👋
+# Jood Hamatto
 
-## Computer Engineering Student | Future Master's Student
+<img src="assets/profile-banner.svg" alt="Jood Hamatto profile banner" width="1200" />
 
-I am a Computer Engineering student at the Lebanese International University (LIU), graduating in July 2026. I am passionate about software development, Android applications, embedded systems, networking, and smart technologies.
+Computer Engineering Graduate from Lebanese International University (July 2026). I build practical full-stack and mobile solutions with a focus on web development, Android applications, databases, REST APIs, networking, and embedded systems.
 
-Currently, I am expanding my knowledge through personal projects while preparing for graduate studies and research opportunities.
+I enjoy creating useful digital products that combine clean user experiences with reliable backend logic. My work spans full-stack web development, Android/mobile development, and database-driven applications, with continued interest in software security, networking, AI, and product-focused engineering.
 
----
+## Featured Projects
 
-## 💻 Technical Skills
+### 1. Attendly — Smart Attendance System
+A smart attendance platform combining Android and web components for classroom attendance tracking. The system uses BLE-based classroom verification, biometric authentication, and a PHP REST API connected to a MySQL database.
 
-- Java
-- C++
-- Python
-- C
-- PHP
-- JavaScript
-- SQL
-- HTML5 & CSS3
-- Android Development
-- MySQL
-- Embedded Systems
-- Arduino
-- Linux
-- Computer Networks
+- Main technologies: Java, Android, PHP, MySQL, BLE, biometric authentication
+- GitHub: https://github.com/joodhamatto/attendly-smart-attendance
+- Repository status: public
+- Demo: not currently published
 
----
+### 2. Constructify — Full-Stack Construction Portfolio & CMS
+A full-stack construction company website and CMS for managing company content, services, project sections, and portfolio information. The project includes an admin dashboard and a responsive public-facing website.
 
-## 🚀 Featured Projects
+- Main technologies: PHP, MySQL, HTML, CSS, JavaScript
+- Major features: content management, service and project management, admin dashboard, responsive portfolio front end
+- GitHub: repository omitted — local project not yet published
+- Demo: not currently published
 
-### 📱 Attendly – Smart Attendance System
-- Android application
-- BLE classroom verification
-- Biometric authentication
-- PHP REST API
-- MySQL database
-- Admin & Instructor Dashboard
+### 3. Real Estate Management Web Application
+A property-focused web application for browsing and managing real-estate listings with search, authentication-related flows, and database-backed content. The project supports both selling and renting workflows in a connected web interface.
 
-### 🌐 Real Estate Management System
-Full-stack web application built using HTML, CSS, JavaScript, PHP and MySQL.
+- Main technologies: PHP, MySQL, HTML, CSS, JavaScript
+- Major features: property listings, search, login/signup flows, rent and sale pages
+- GitHub: repository omitted — local project not yet published
+- Demo: not currently published
 
-### 📚 Student Management Android Application
-Android application developed using Java and SQLite/MySQL.
+## Skills
 
----
+- Full-stack web development: PHP, HTML, CSS, JavaScript
+- Mobile development: Android, Java
+- Databases: MySQL, SQL
+- APIs: REST API integration and backend logic
+- Systems & security: software security concepts, Linux, Arduino, embedded systems
+- Networking: computer networks and connected systems
 
-## 🎯 Interests
+## Take a coding break → Bug Catcher
 
-- Android Development
-- Embedded Systems
-- Artificial Intelligence
-- Internet of Things (IoT)
-- Software Engineering
-- Computer Networks
+A lightweight mini-game is included in this repo for local review and future GitHub Pages publication.
 
----
+Open: [game/index.html](game/index.html)
 
-## 🌍 Languages
+## Contact
 
-- Arabic (Native)
-- English (Fluent)
-- Turkish (Fluent)
-- German (Learning)
+- Email: hamattojood@gmail.com
+- LinkedIn: https://www.linkedin.com/in/jood-hamatto-880a4a319
+- GitHub: https://github.com/joodhamatto
 
----
-
-## 📫 Contact
-
-📧 Email: hamattojood@gmail.com
-
-🔗 LinkedIn: https://www.linkedin.com/in/jood-hamatto-880a4a319 
+I am open to internship and junior software or computer engineering opportunities where I can contribute, learn, and keep building meaningful projects.
